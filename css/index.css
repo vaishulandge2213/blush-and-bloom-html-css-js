@@ -233,6 +233,10 @@ display:block;
     transition: 0.3s;
 }
 
+.social-icons a:hover {
+    background-color: #b0256a;
+    transform: translateY(-4px);
+}
 
 .footer-bottom {
     text-align: center;
