@@ -90,6 +90,15 @@ header{
     width: 60%;
     margin: auto;
     background: white;
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    color: #ff5fa2;
+    text-align: center;
 }
 
 .footer {
