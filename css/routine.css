@@ -1,4 +1,13 @@
+body{
+font-family:Arial;
+background:#fff0f5;
+margin:0;
+}
 
+.routine-main{
+text-align:center;
+padding:80px;
+}
 
 .routine-main h1{
 color:#d63384;
