@@ -7,7 +7,7 @@ background:#f4f4f4;
 
 .container{
 display:grid;
-grid-template-columns:repeat(4,1fr);
+grid-template-columns:repeat(5,1fr);
 gap:20px;
 padding:20px;
 justify-items:center;
@@ -121,4 +121,20 @@ text-align:center;
 box-shadow:0 0 10px rgba(0,0,0,0.1);
 transition:0.3s;
 width:220px;
+}
+
+.container{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+transition:0.3s;
 }
