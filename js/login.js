@@ -29,14 +29,12 @@ function validateLogin(){
     error.style.color = "green";
     error.innerText = "Login Successful!";
 
-    // Redirect to home page
+   
     setTimeout(function(){
         window.location.href = "../index.html";
     },1000);
 }
 
-
-// Auto fill login form from LocalStorage
 window.onload = function(){
     let savedEmail = localStorage.getItem("userEmail");
     let savedPassword = localStorage.getItem("userPassword");
