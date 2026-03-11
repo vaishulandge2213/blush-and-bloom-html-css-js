@@ -43,8 +43,6 @@ window.onload = function(){
     }
 }
 
-
-
 function login() {
 
 let email = document.getElementById("email").value;
