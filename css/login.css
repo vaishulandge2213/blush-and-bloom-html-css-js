@@ -194,7 +194,8 @@ body {
     background-color: #d63384;
 }
 .btn:hover {
-    background-color: #5faeb3;
+    background-color: #24368d;
+    box-shadow: 5px 5px 6px  rgb(120, 120, 140);
 }
 
 .btn-outline {
@@ -207,7 +208,8 @@ body {
     background-color: #d63384;
 }
 .btn-outline:hover {
-    background-color: #49ae95;
+    background-color: #24368d;
+    box-shadow: 5px 5px 6px  rgb(120, 120, 140);
 }
 
 .right {
@@ -260,12 +262,12 @@ body {
 }
 
 .login:hover {
-    box-shadow: 5px 5px 6px  rgb(148, 148, 159);
+    box-shadow: 5px 5px 6px  rgb(120, 120, 140);
     transition: 0.3s ease-in-out;
 }
 
 .login:hover {
-    background-color: #45978f;
+    background-color: #24368d;
 }
 
 .close {
