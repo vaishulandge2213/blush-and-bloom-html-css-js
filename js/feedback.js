@@ -15,10 +15,10 @@ stars.forEach(star => {
             stars[i].classList.add("active");
         }
 
-        
+
 
     });
- 
+
 });
 
 document.getElementById("feedbackForm").addEventListener("submit", function (e) {
@@ -27,4 +27,8 @@ document.getElementById("feedbackForm").addEventListener("submit", function (e) 
 
 
 
+});
+document.getElementById("feedbackForm").addEventListener("submit", function (e) {
+    e.preventDefault();   // stop page refresh
+    alert("Thank you for your feedback! 😊");
 });
